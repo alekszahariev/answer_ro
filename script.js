@@ -469,8 +469,9 @@ function rebeca(){
             "./assets/rebecca/5.jpg",
             "./assets/rebecca/6.jpg",
             "./assets/rebecca/djon.jpg",
-            "./assets/rebecca/9.jpg",
-            "./assets/rebecca/10.jpg"
+            "./assets/rebecca/7.jpg",
+            "./assets/rebecca/8.jpg"
+
         ]
         
         suspects.forEach((image) =>{
@@ -493,9 +494,14 @@ function rebeca(){
 
 
     function correctAnswer(){
-        form.innerHTML = `<h1 style="color:red;">Acesta este un răspuns corect</h1><br> <p style="color:white">
+        form.innerHTML = `<h1 style="color:red;">Acesta este un răspuns corect</h1><br>
+        
+        <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a>
+        
+        <p style="color:white">
            
-Rebecca Parker are o personalitate foarte curioasă și, după ce îl vede pe îngrijitor vorbind singur, devine obsedată să afle exact ce se întâmplă cu el. Din nefericire pentru ea, John realizează și el că Rebecca l-a văzut și devine neliniștit. Ea face tot posibilul să afle adevărul despre îngrijitor, astfel că este nevoită să își șantajeze profesorul de matematică pentru parola site-ului școlii (nimeni nu îi poate refuza nimic Rebeccăi, pentru că știe ce îi așteaptă în continuare). Profesorul ei lasă un bilet în dulapul Rebeccăi cu parola, dar criptat (astfel încât, dacă cineva îl vede, nu poate afla ce scrie pe el). Rebecca ajunge la adevăr și se îndreaptă spre liceu pentru a-i demasca pe îngrijitor și pe director. Ea lasă un bilet în dulapul Barbarei (în timp ce toată lumea este încă în clasă) și este brusc atacată în spate. Ea este răpită de îngrijitorul școlii și dusă în camera îngrijitorilor. Rebecca luptă din toate puterile împotriva lui John, dar fără niciun succes. După ce toată lumea părăsește clădirea școlii, John o duce la sala de sport. Acolo o leagă și o interoghează. Realizând că nimeni nu știe nimic despre asta, îi taie venele și o lasă acolo. Se pare că, imediat ce părăsește școala pentru a se întoarce acasă, uită ce făcea acolo și de ce se afla acolo (din cauza bolii sale). Aruncă cuțitul și fuge. Se duce acasă, își pune hainele și mănușile școlare într-o pungă și îi dă foc. Nu știe ce a făcut sau de ce, dar este sigur că nu este bine.
+Rebecca Parker are o personalitate foarte curioasă și, după ce îl vede pe îngrijitor vorbind singur, devine obsedată să afle exact ce se întâmplă cu el. Din păcate pentru ea, și John își dă seama că Rebecca l-a văzut și devine neliniștit. Aceasta face tot posibilul pentru a afla adevărul despre îngrijitor, astfel că este nevoită să își șantajeze profesorul de matematică pentru parola site-ului școlii (nimeni nu îi poate refuza nimic Rebeccăi pentru că știe ce îi așteaptă în continuare). Profesorul ei lasă un bilet în dulapul Rebeccăi cu parola, dar criptat (astfel încât, dacă cineva îl vede, nu poate afla ce scrie pe el). Rebecca ajunge la adevăr și se îndreaptă spre liceu pentru a-I demasca pe îngrijitor și pe director. Ea lasă un bilet în dulapul Barbarei (în timp ce toată lumea este încă în clasă) și este brusc atacată din spate. Ea este răpită de îngrijitorul școlii și dusă în camera îngrijitorilor. Rebecca luptă din toate puterile împotriva lui John, dar fără succes. După ce toată lumea părăsește clădirea școlii, John o duce la sala de sport. Acolo o leagă și o interoghează. Realizând că nimeni nu știe nimic despre asta, îi taie venele și o lasă acolo. Se pare că, imediat ce părăsește școala pentru a se întoarce acasă, uită ce făcea acolo și de ce se afla acolo (din cauza bolii sale). Aruncă cuțitul și fuge. Se duce acasă, își pune hainele și mănușile de la școală într-o pungă și îi dă foc. Nu știe ce a făcut sau de ce, dar este sigur că nu este bine.
+
 
 
         </p>`
