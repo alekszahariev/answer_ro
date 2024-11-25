@@ -314,11 +314,11 @@ function martin(){
     let form = document.querySelector(".suspects")
     form.style.display = "block";
     form.innerHTML = `
-    <h1 style="color: red;">Случай: Мартин</h1>
-    <input type="text" id="firstword" placeholder="1ва дума от шифъра" class="form-control my-3">
-    <input type="text" id="secondword" placeholder="2ра дума от шифъра" class="form-control my-3">
-    <input type="text" id="thirdword" placeholder="3та дума от шифъра" class="form-control my-3">
-    <button style="margin:auto;display:block;" class="btn btn-success checkanswer">Напред</button>
+    <h1 style="color: red;">Dosarul: Martin</h1>
+    <input type="text" id="firstword" placeholder="Primul cuvânt al cifrului" class="form-control my-3">
+    <input type="text" id="secondword" placeholder="Al doilea cuvânt al cifrului" class="form-control my-3">
+    <input type="text" id="thirdword" placeholder="Al treilea cuvânt al cifrului" class="form-control my-3">
+    <button style="margin:auto;display:block;" class="btn btn-success checkanswer">Următorul</button>
     `
 
     let check_btn = document.querySelector(".checkanswer")
@@ -331,26 +331,26 @@ function martin(){
         let thirdcheck = false
 
 
-        if(firstword === "канибал"){
+        if(firstword === "canibal"){
             firstcheck = true
         }
-        if(secondword.includes("мая") && secondword.includes("марин")){
+        if(secondword.includes("maya") && secondword.includes("marin")){
             secondcheck = true
         }
-        if(thirdword==="атацибъд"){
+        if(thirdword==="labinac"){
             thirdcheck = true
         }
 
         if(firstcheck === true && secondcheck === true && thirdcheck === true){
             steptwoMartin()
         }else{
-           check_btn.innerHTML = "Грешна дума!"
+           check_btn.innerHTML = "Cuvânt greșit!"
            check_btn.style.background = "red"
            document.getElementById("firstword").value = ""
            document.getElementById("secondword").value = ""
            document.getElementById("thirdword").value = ""
            setTimeout(() => {
-            check_btn.innerHTML = "Напред"
+            check_btn.innerHTML = "Următorul"
             check_btn.style.background = "#157347"
            }, 1000);
         } 
@@ -358,7 +358,7 @@ function martin(){
     })
 
     function steptwoMartin(){
-        form.innerHTML = `<h1 style="color: red;text-align:center;">Кой е убиецът?</h1>`
+        form.innerHTML = `<h1 style="color: red;text-align:center;">Cine este criminalul?</h1>`
         let suspects = [
             "./assets/martin/dqdohristo.png",
             "./assets/martin/kmeta.png",
@@ -385,23 +385,19 @@ function martin(){
                 if(image.src.includes("bebe")){
                     correctAnswer()
                 }else{
-                    alert("Грешен отговор. Опитай отново.");
+                    alert("Răspuns greșit. Încercați din nou.");
                 }
             })
         })
     }
 
     function correctAnswer(){
-        form.innerHTML = `<h1 style="color:red;">Това е правилен отговор</h1><br> <p style="color:white">
-            Както може би сте разбрали това е детето на Мая и Валентин (кмета на селото). <br>
-            Когато детето се ражда - Марин, който всъщност не е биологичния баща го оставя в гората, където го 
-            открива местен жител. Този жител е канибал. Храни се с различни животни, но също и с човешка плът. 
-            Съответно отглежда бебето, което също става канибал. <br>
-            <br>
-            Когато Мартин отива близо до гората за негов лош късмет попада на вече порасналото бебе. Това са и последните
-            моменти на Мартин.
-            <br>
-            Вие успешно разгадахте този случай!
+        form.innerHTML = `<h1 style="color:red;">Acesta este un răspuns corect</h1><br>
+        <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
+
+        <p style="color:white">
+            După cum v-ați dat seama, acesta este copilul Mayei și al lui Valentin (primarul satului). Când se naște copilul - Marin, care nu este de fapt tatăl biologic îl lasă în pădure unde îl găsește un localnic. Acest locuitor este un canibal. El se hrănește cu diverse animale, dar și cu carne de om. În consecință, el crește copilul, care devine și el canibal.
+Când Martin se apropie de pădure, spre ghinionul său, dă peste bebelușul acum crescut. Acestea sunt ultimele clipe ale lui Martin!
         </p>`
     }
 
@@ -460,7 +456,7 @@ function rebeca(){
 
 
     function steptwoRebecca(){
-        form.innerHTML = `<h1 style="color: red;text-align:center;">Кой е убиецът?</h1>`
+        form.innerHTML = `<h1 style="color: red;text-align:center;">Cine este criminalul?</h1>`
         let suspects = [
             "./assets/rebecca/1.jpg",
             "./assets/rebecca/2.jpg",
@@ -517,11 +513,11 @@ function ardjikov(){
     let form = document.querySelector(".suspects")
     form.style.display = "block";
     form.innerHTML = `
-    <h1 style="color: red;">Случай: Арджиков</h1>
-    <input type="text" id="firstword" placeholder="Парола за телефона" class="form-control my-3">
-    <input type="text" id="secondword" placeholder="Парола на емайла на Арджиков" class="form-control my-3">
-    <input type="text" id="thirdword" placeholder="Ип на убиеца." class="form-control my-3">
-    <button style="margin:auto;display:block;" class="btn btn-success checkanswer">Напред</button>
+    <h1 style="color: red;">Caz: Ardzhikov</h1>
+    <input type="text" id="firstword" placeholder="Parolă pentru telefon" class="form-control my-3">
+    <input type="text" id="secondword" placeholder="Parola de e-mail a lui Ardzhikov" class="form-control my-3">
+    <input type="text" id="thirdword" placeholder="Ip-ul ucigașului." class="form-control my-3">
+    <button style="margin:auto;display:block;" class="btn btn-success checkanswer">Următorul</button>
     `
 
     let check_btn = document.querySelector(".checkanswer")
@@ -547,13 +543,13 @@ function ardjikov(){
         if(firstcheck === true && secondcheck === true && thirdcheck === true){
             steptwoRebecca()
         }else{
-           check_btn.innerHTML = "Има грешна дума!"
+           check_btn.innerHTML = "Există un cuvânt greșit!"
            check_btn.style.background = "red"
            document.getElementById("firstword").value = ""
            document.getElementById("secondword").value = ""
            document.getElementById("thirdword").value = ""
            setTimeout(() => {
-            check_btn.innerHTML = "Напред"
+            check_btn.innerHTML = "Următorul"
             check_btn.style.background = "#157347"
            }, 1000);
         } 
@@ -562,7 +558,7 @@ function ardjikov(){
 
 
     function steptwoRebecca(){
-        form.innerHTML = `<h1 style="color: red;text-align:center;">Кой е убиецът?</h1>`
+        form.innerHTML = `<h1 style="color: red;text-align:center;">Cine este criminalul?</h1>`
         let suspects = [
             "./assets/ardjikov/1.png",
             "./assets/ardjikov/2.png",
@@ -584,7 +580,7 @@ function ardjikov(){
                 if(image.src.includes("3")){
                     correctAnswer()
                 }else{
-                    alert("Грешен отговор. Опитай отново.");
+                    alert("Răspuns greșit. Încercați din nou.");
                 }
             })
         })
@@ -592,10 +588,12 @@ function ardjikov(){
 
 
     function correctAnswer(){
-        form.innerHTML = `<h1 style="color:red;">Йоанна е закупила билките от картата на майка си. След това е отровила Арджиков,защото е разбрала, че сестра ѝ е била принудена от Арджиков да има взаимоотношения с него. (по-подробно обяснение ще има скоро</h1><br> <p style="color:white">
+        form.innerHTML = `<h1 style="color:red;">Ați găsit cu succes criminalul!</h1><br>
+        <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
+        <p style="color:white">
+        
            
-Успешно намери убиеца!
-
+Joanna a cumpărat ierburile cu cardul bancar al mamei sale. Apoi l-a otrăvit pe Ardjikov pentru că a aflat că sora ei a fost obligată de Ardjikov să întrețină relații intime cu el.
         </p>`
     }
     
