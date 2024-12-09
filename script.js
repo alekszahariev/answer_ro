@@ -334,10 +334,10 @@ function martin(){
         if(firstword === "canibal"){
             firstcheck = true
         }
-        if(secondword.includes("maya") && secondword.includes("marin")){
+        if(secondword.includes("maya") || secondword.includes("maia")  && secondword.includes("marin")){
             secondcheck = true
         }
-        if(thirdword==="labinac"){
+        if(thirdword==="aeraotalru"){
             thirdcheck = true
         }
 
