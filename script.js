@@ -88,14 +88,14 @@ function additionalinfo_maria(){
     suspectsdiv.style.display="none"
 
     let uliki = [
-        "Разпит с Морело №2",
-        "Разпит с Морело №1",
-        "Разпит със Сисилия",
-        "Разпит с Дрейк",
-        "Вестник",
-        "Снимки на панаира",
-        "Разпит с Мартин",
-        "Лист с цитати от библията"
+        "Interogatoriu cu Morello #2",
+        "Interogatoriu cu Morello #1",
+        "Interogatoriu cu Cecilia",
+        "Interogatoriu cu Drake",
+        "Ziarul",
+        "Pictures at the Fair",
+       "Interogatoriu cu Martin",
+        "Foaie cu citate biblice"
     ]
 
     let additionalinfo_div = document.querySelector(".additional_info")
@@ -152,14 +152,14 @@ check_answer_btn.addEventListener("click", function(){
     let text = document.querySelector(".result h2")
     if(isithundred>80){
         tryagain_button.style.display = "none"
-        text.innerHTML = "Вашият отговор е правилен!"
-        document.querySelector(".result p").innerHTML = "Тъй, като цитатите от библията, самата библия и адресната книга са намерени в стаята на Мария това води до мисълта, че тя е правила собствено разследване за убийствата споменати в разпит с Морело №2. Убийствата са извършени от бащата на Мартин и Мария така и от самия Мартин. Мария е разбрала за това и е искала да каже на г-н Дрейк, но той я е отпратил, защото е била твърде зает. Мартин убива Мария за да може тази негова тайна да остане скрита и той да бъде начело на компанията."
+        text.innerHTML = "Răspunsul dumneavoastră este corect!"
+        document.querySelector(".result p").innerHTML = "Din moment ce citatele din Biblie, Biblia însăși și agenda au fost găsite în camera Mariei, acest lucru duce la ideea că ea făcea propria investigație asupra crimelor menționate în interogatoriul cu Morello #2. Crimele au fost comise atât de tatăl lui Martin și al Mariei, cât și de Martin însuși. Maria a aflat și a vrut să îi spună domnului Drake, dar acesta a alungat-o pentru că era prea ocupată. Martin o ucide pe Maria pentru ca acest secret al său să rămână ascuns și el să poată fi la conducerea companiei."
     }
     if(isithundred<50){
-        text.innerHTML = "Вашият отговор е грешен!"
+        text.innerHTML = "Răspunsul tău este greșit!"
     }
     if(isithundred>50 && isithundred < 90){
-        text.innerHTML = "Близо сте до отговора!"
+        text.innerHTML = "Sunteți aproape de răspuns!"
     }
 })
 
