@@ -99,7 +99,7 @@ function additionalinfo_maria(){
     ]
 
     let additionalinfo_div = document.querySelector(".additional_info")
-    additionalinfo_div.innerHTML = `<h1 style="color: red;">Кои документи го доказват?</h1>`
+    additionalinfo_div.innerHTML = `<h1 style="color: red;">Ce documente o dovedesc?</h1>`
     additionalinfo_div.style.display = "block";
     var index = 0;
     uliki.forEach(ulika =>{
