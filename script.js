@@ -110,7 +110,7 @@ function additionalinfo_maria(){
         index = index+1
         additionalinfo_div.appendChild(selectinput)
     })
-    additionalinfo_div.innerHTML += `<button style="margin:auto;display:block;" class="btn btn-success checkanswer">Провери</button>`
+    additionalinfo_div.innerHTML += `<button style="margin:auto;display:block;" class="btn btn-success checkanswer">Verifică răspunsul</button>`
 
     const maxOptions = 3;
 const chosenOptions = [];
@@ -396,8 +396,17 @@ function martin(){
         <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
 
         <p style="color:white">
-            După cum v-ați dat seama, acesta este copilul Mayei și al lui Valentin (primarul satului). Când se naște copilul - Marin, care nu este de fapt tatăl biologic îl lasă în pădure unde îl găsește un localnic. Acest locuitor este un canibal. El se hrănește cu diverse animale, dar și cu carne de om. În consecință, el crește copilul, care devine și el canibal.
-Când Martin se apropie de pădure, spre ghinionul său, dă peste bebelușul acum crescut. Acestea sunt ultimele clipe ale lui Martin!
+            Din 1975, oamenii care decid să viziteze atracțiile din jurul satului Skrăt dispar fără urmă. Toate cazurile sunt legate de zona Dabitsa, unde circulă zvonuri despre un canibal care s-a stabilit acolo. De-a lungul anilor, în acea zonă s-au petrecut numeroase tragedii.
+
+Kamen, polițistul local, începe o anchetă asupra acestor dispariții și reușește să-l descopere pe canibal. În ciuda pericolului, canibalul îi face lui Kamen o propunere neobișnuită: după fiecare moarte a unui localnic, Kamen să lase trupul în apropierea Dabitsei, pentru ca acesta să-și satisfacă nevoile macabre. În schimb, promite că nimeni din sat nu va fi rănit. După lungi ezitări, Kamen acceptă propunerea.
+
+Între timp, în sat izbucnește o dramă personală. Maia și soțul ei, Marin, nu se înțeleg de multă vreme. Aceasta o determină pe Maia să-l înșele cu Valentin, primarul satului. Ea rămâne însărcinată. În noaptea nașterii, copilul se naște cu grave dizabilități fizice. Marin, copleșit de disperare și crezând că este o milă pentru copil, decide să-l abandoneze în pădure, pentru a muri.
+
+Canibalul găsește bebelușul abandonat și, în loc să-l mănânce, decide să aibă grijă de el. Îl crește ca pe propriul său copil și îl învață să adopte stilul său de viață înfiorător. De-a lungul anilor, copilul devine un vânător și prădător excepțional. Dar, spre deosebire de „tatăl” său, nu respectă înțelegerea dintre Kamen și canibal.
+
+Într-o zi, în apropierea Dabitsei, prădătorul atacă pe Martin, un băiat de nouă ani care mergea cu bicicleta. Copilul dispare fără urmă.
+
+Felicitări, ați rezolvat cu succes acest caz!
         </p>`
     }
 
@@ -496,7 +505,7 @@ function rebeca(){
         
         <p style="color:white">
            
-Rebecca Parker are o personalitate foarte curioasă și, după ce îl vede pe îngrijitor vorbind singur, devine obsedată să afle exact ce se întâmplă cu el. Din păcate pentru ea, și John își dă seama că Rebecca l-a văzut și devine neliniștit. Aceasta face tot posibilul pentru a afla adevărul despre îngrijitor, astfel că este nevoită să își șantajeze profesorul de matematică pentru parola site-ului școlii (nimeni nu îi poate refuza nimic Rebeccăi pentru că știe ce îi așteaptă în continuare). Profesorul ei lasă un bilet în dulapul Rebeccăi cu parola, dar criptat (astfel încât, dacă cineva îl vede, nu poate afla ce scrie pe el). Rebecca ajunge la adevăr și se îndreaptă spre liceu pentru a-I demasca pe îngrijitor și pe director. Ea lasă un bilet în dulapul Barbarei (în timp ce toată lumea este încă în clasă) și este brusc atacată din spate. Ea este răpită de îngrijitorul școlii și dusă în camera îngrijitorilor. Rebecca luptă din toate puterile împotriva lui John, dar fără succes. După ce toată lumea părăsește clădirea școlii, John o duce la sala de sport. Acolo o leagă și o interoghează. Realizând că nimeni nu știe nimic despre asta, îi taie venele și o lasă acolo. Se pare că, imediat ce părăsește școala pentru a se întoarce acasă, uită ce făcea acolo și de ce se afla acolo (din cauza bolii sale). Aruncă cuțitul și fuge. Se duce acasă, își pune hainele și mănușile de la școală într-o pungă și îi dă foc. Nu știe ce a făcut sau de ce, dar este sigur că nu este bine.
+Rebecca Parker are o personalitate foarte curioasă și, după ce îl vede pe curtanie vorbind singur, devine obsedată să afle exact ce se întâmplă cu el. Din păcate pentru ea, și John își dă seama că Rebecca l-a văzut și devine neliniștit. Aceasta face tot posibilul pentru a afla adevărul despre îngrijitor, astfel că este nevoită să își șantajeze profesorul de matematică pentru parola site-ului școlii (nimeni nu îi poate refuza nimic Rebeccăi pentru că știe ce îi așteaptă în continuare). Profesorul ei lasă un bilet în dulapul Rebeccăi cu parola, dar criptat (astfel încât, dacă cineva îl vede, nu poate afla ce scrie pe el). Rebecca ajunge la adevăr și se îndreaptă spre liceu pentru a-I demasca pe îngrijitor și pe director. Ea lasă un bilet în dulapul Barbarei (în timp ce toată lumea este încă în clasă) și este brusc atacată din spate. Ea este răpită de îngrijitorul școlii și dusă în camera îngrijitorilor. Rebecca luptă din toate puterile împotriva lui John, dar fără succes. După ce toată lumea părăsește clădirea școlii, John o duce la sala de sport. Acolo o leagă și o interoghează. Realizând că nimeni nu știe nimic despre asta, îi taie venele și o lasă acolo. Se pare că, imediat ce părăsește școala pentru a se întoarce acasă, uită ce făcea acolo și de ce se afla acolo (din cauza bolii sale). Aruncă cuțitul și fuge. Se duce acasă, își pune hainele și mănușile de la școală într-o pungă și îi dă foc. Nu știe ce a făcut sau de ce, dar este sigur că nu este bine.
 
 
 
@@ -590,10 +599,21 @@ function ardjikov(){
     function correctAnswer(){
         form.innerHTML = `<h1 style="color:red;">Ați găsit cu succes criminalul!</h1><br>
         <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
-        <p style="color:white">
+        <p style="color:white;font-family:Arial">
         
            
-Joanna a cumpărat ierburile cu cardul bancar al mamei sale. Apoi l-a otrăvit pe Ardjikov pentru că a aflat că sora ei a fost obligată de Ardjikov să întrețină relații intime cu el.
+Ucigașul lui Gheorghi Ardjikov a fost dezvăluit: conform informațiilor oficiale, criminalul este nepoata sa, Ioana Vărbanova.
+
+Gheorghi Ardjikov a fost găsit mort în patul său în dimineața zilei de 20 martie, iar lângă el a fost descoperită o scrisoare de adio. Suspecții – membrii familiei sale – au fost interogați amănunțit, iar alibiurile lor au fost confirmate.
+
+Gergana Vărbanova a fost eliminată din lista „suspecților” după ce au apărut fotografii cu ea de la o petrecere privată din Sofia.
+În momentul crimei, ea se afla într-un bar de noapte popular. După verificarea computerului Maiei Vărbanova, s-a constatat că aceasta avea activitate dovedită pe email în timpul morții lui Ardjikov, astfel încât suspiciunile asupra ei au fost eliminate.
+
+Majordomul, până atunci PRINCIPALUL suspect, a confirmat că în momentul crimei se afla la o stație de benzină și își alimenta mașina la o stație OMV. Toată lumea bănuia că este vorba despre o situație de conflicte de interese, dar povestea s-a dovedit a fi mult mai complexă. S-a descoperit că Gheorghi Ardjikov exercita presiuni psihice și sexuale asupra Gergana Vărbanova.
+
+Refuzul acesteia era amenințat, citez, cu „viața la țară”. Un detectiv independent a reușit să o incrimineze pe Ioana Vărbanova, penetrând rețelele sociale ale lui Gheorghi Ardjikov, hackuind rețeaua casei și, folosind un tracker modern de IP, urmărind ce au căutat persoanele implicate în ultimele zile, înainte și după moartea lui Ardjikov. S-a dovedit că Ioana Vărbanova aflase despre șantajul exercitat asupra surorii sale, Ghergana. A achiziționat otravă „oleandru” de pe internet și a otrăvit whisky-ul preferat al unchiului său.
+
+Astăzi, în fața Curții de Apel, Ioana Vărbanova și-a recunoscut vina.
         </p>`
     }
     
