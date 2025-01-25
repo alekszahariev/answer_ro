@@ -129,7 +129,7 @@ const chosenOptions = [];
                 chosenOptions.push(option.getAttribute("data-id"));
             }
 
-            const correctanswers = ["0", "4", "6"];
+            const correctanswers = ["0", "4", "6", "1", "2", "3", "4", "5"];
             let optiondataid = option.getAttribute("data-id");
             if (correctanswers.includes(optiondataid)) {
                 if(option.className.includes("chosen")){
@@ -153,7 +153,15 @@ check_answer_btn.addEventListener("click", function(){
     if(isithundred>80){
         tryagain_button.style.display = "none"
         text.innerHTML = "Răspunsul dumneavoastră este corect!"
-        document.querySelector(".result p").innerHTML = "Din moment ce citatele din Biblie, Biblia însăși și agenda au fost găsite în camera Mariei, acest lucru duce la ideea că ea făcea propria investigație asupra crimelor menționate în interogatoriul cu Morello #2. Crimele au fost comise atât de tatăl lui Martin și al Mariei, cât și de Martin însuși. Maria a aflat și a vrut să îi spună domnului Drake, dar acesta a alungat-o pentru că era prea ocupată. Martin o ucide pe Maria pentru ca acest secret al său să rămână ascuns și el să poată fi la conducerea companiei."
+        document.querySelector(".result p").innerHTML = `<a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
+
+<br>Cumpărați adevărata afacere cu 10% OFF la întreaga comandă. <br>
+<br>
+Cod: MARIA <br>
+<br>
+<a href="https://ancheta-penala.com/collections/frontpage" target="blank">Link</a><br>
+
+ <br>Din moment ce citatele din Biblie, Biblia însăși și agenda au fost găsite în camera Mariei, acest lucru duce la ideea că ea făcea propria investigație asupra crimelor menționate în interogatoriul cu Morello #2. Crimele au fost comise atât de tatăl lui Martin și al Mariei, cât și de Martin însuși. Maria a aflat și a vrut să îi spună domnului Drake, dar acesta a alungat-o pentru că era prea ocupată. Martin o ucide pe Maria pentru ca acest secret al său să rămână ascuns și el să poată fi la conducerea companiei.`
     }
     if(isithundred<50){
         text.innerHTML = "Răspunsul tău este greșit!"
