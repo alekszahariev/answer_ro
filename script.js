@@ -404,15 +404,15 @@ function martin(){
         <a target="_blank" href="https://imhustler.com/extras/review-us/">Evaluați jocul nostru 🙏 </a><br>
 
         <p style="color:white">
-            Din 1975, oamenii care decid să viziteze atracțiile din jurul satului Skrăt dispar fără urmă. Toate cazurile sunt legate de zona Dabitsa, unde circulă zvonuri despre un canibal care s-a stabilit acolo. De-a lungul anilor, în acea zonă s-au petrecut numeroase tragedii.
+            Din 1975, oamenii care decid să viziteze atracțiile din jurul satului Skrăt dispar fără urmă. Toate cazurile sunt legate de zona Bușteni, unde circulă zvonuri despre un canibal care s-a stabilit acolo. De-a lungul anilor, în acea zonă s-au petrecut numeroase tragedii.
 
-Kamen, polițistul local, începe o anchetă asupra acestor dispariții și reușește să-l descopere pe canibal. În ciuda pericolului, canibalul îi face lui Kamen o propunere neobișnuită: după fiecare moarte a unui localnic, Kamen să lase trupul în apropierea Dabitsei, pentru ca acesta să-și satisfacă nevoile macabre. În schimb, promite că nimeni din sat nu va fi rănit. După lungi ezitări, Kamen acceptă propunerea.
+Kamen, polițistul local, începe o anchetă asupra acestor dispariții și reușește să-l descopere pe canibal. În ciuda pericolului, canibalul îi face lui Kamen o propunere neobișnuită: după fiecare moarte a unui localnic, Kamen să lase trupul în apropierea Cascada Urlătoarea, pentru ca acesta să-și satisfacă nevoile macabre. În schimb, promite că nimeni din sat nu va fi rănit. După lungi ezitări, Kamen acceptă propunerea.
 
 Între timp, în sat izbucnește o dramă personală. Maia și soțul ei, Marin, nu se înțeleg de multă vreme. Aceasta o determină pe Maia să-l înșele cu Valentin, primarul satului. Ea rămâne însărcinată. În noaptea nașterii, copilul se naște cu grave dizabilități fizice. Marin, copleșit de disperare și crezând că este o milă pentru copil, decide să-l abandoneze în pădure, pentru a muri.
 
 Canibalul găsește bebelușul abandonat și, în loc să-l mănânce, decide să aibă grijă de el. Îl crește ca pe propriul său copil și îl învață să adopte stilul său de viață înfiorător. De-a lungul anilor, copilul devine un vânător și prădător excepțional. Dar, spre deosebire de „tatăl” său, nu respectă înțelegerea dintre Kamen și canibal.
 
-Într-o zi, în apropierea Dabitsei, prădătorul atacă pe Martin, un băiat de nouă ani care mergea cu bicicleta. Copilul dispare fără urmă.
+Într-o zi, în apropierea Cascada Urlătoarea, prădătorul atacă pe Martin, un băiat de nouă ani care mergea cu bicicleta. Copilul dispare fără urmă.
 
 Felicitări, ați rezolvat cu succes acest caz!
         </p>`
